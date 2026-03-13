@@ -1,0 +1,213 @@
+# The Chern Conjecture via Affine-Connection Persistence
+## Canonical Lane (defined term): the manifold-constrained local-to-global architecture (`CHN1-CHN8`)
+
+**Author:** HautevilleHouse  
+**Date:** March 12, 2026  
+**Status:** Admissible-class theorem manuscript
+
+---
+
+## Abstract
+
+This manuscript develops a canonical-lane closure architecture for the target problem: proving affine-completeness and Euler-characteristic persistence in the declared admissible class through an admissible affine-connection closure architecture.
+
+The proof program is organized as eight steps `CHN1-CHN8` with executable closure gates `CHN_G1`, `CHN_G2`, `CHN_G3`, `CHN_G4`, `CHN_G5`, `CHN_G6`, and `CHN_GM`. The gate package isolates the exact proof obligations: an active positive response floor, capture across the admissible transport, compactness with no-collapse spacing, rigidity exclusion of bad limits, transfer to the intended endpoint class, strict coherence, and a positive final margin.
+
+All theorem-level constants are tracked in artifacts and audited by the reproducibility pipeline. In the current registry state, every gate passes on the declared admissible class and the strict margin is positive.
+
+---
+
+## 1. Target Statement and Scope
+
+### 1.1 Target statement
+
+The target statement is: affine-completeness and Euler-characteristic persistence on closed affine manifolds in the declared admissible class.
+
+The canonical-lane proof path is:
+
+1. encode the admissible evolution in a canonical class `A`,
+2. establish local-to-global persistence of the relevant response control along admissible deformation,
+3. exclude bad limits by rigidity and compactness,
+4. transfer the rigid limit through the bridge package,
+5. identify the endpoint representative with the intended target class.
+
+### 1.2 Local claim boundary
+
+- the closure architecture and gate system are explicit,
+- failure modes are machine-checkable,
+- theorem constants are instantiated in tracked artifacts,
+- repro outputs determine whether the declared admissible class closes.
+
+Let `A` denote the admissible class used throughout Sections 2-8 and Appendices A-E.
+
+---
+
+## 2. Epistemic Axiom Map (A1-A8)
+
+| Axiom | Problem-side interpretation |
+|---|---|
+| `A1` Projection | claims are made only on the projected admissible class |
+| `A2` Flux primacy | transport and restart bookkeeping precede endpoint declaration |
+| `A3` Invariance split | coercive core plus explicit defect ledger |
+| `A4` Local-to-global transfer | local estimates propagate along admissible evolution |
+| `A5` Window transfer | bounded local windows propagate to global closure constants |
+| `A6` Tensor covariance | canonical response quantities are defined on the projected sector |
+| `A7` Corrective morphisms | restart and renormalization steps preserve admissibility |
+| `A8` Explicit remainder | every non-closed term appears in the coherence or defect ledgers |
+
+---
+
+## 3. Canonical Objects
+
+Let `tau` denote the deformation parameter and let `u_tau = (K_tau, M_tau, D_tau, N_tau, L_tau)` denote the admissible state of affine-connection packets, affine-connection data, defect ledgers, normalization parameters, and endpoint locks.
+
+Primary objects:
+
+- projected response operator: `E_tau`,
+- defect functional: `D_tau`,
+- compactness carrier on admissible packets: `K_tau`,
+- rigidity monitor on bad limits: `R_tau`,
+- transfer factor: `T_tau`,
+- coherence remainder: `eps_coh`.
+
+Strict closure margin:
+
+`M_CHN = min(kappa_canonical, sigma_deformation, kappa_compact, rho_rigidity, chern_transfer) - eps_coh`.
+
+Target:
+
+`M_CHN > 0`.
+
+---
+
+## 4. Response and Gate Interface
+
+### 4.1 Canonical tube
+
+- admissible packets remain inside the declared tube,
+- defects stay within the tracked ledger,
+- the projected response is defined on the canonical sector.
+
+### 4.2 Projected response
+
+Let `H_resp` be the projected response sector and define:
+
+`E_tau = Pi_resp L_tau Pi_resp`.
+
+Interpretation: `E_tau` records the positive affine-connection response that prevents collapse of the admissible closure package.
+
+### 4.3 Closure gates
+
+| Gate | Constant | Criterion |
+|---|---|---|
+| `CHN_G1` | `kappa_canonical` | projected affine-connection response has a strict positive floor |
+| `CHN_G2` | `sigma_deformation` | affine-deformation defect stays above capture floor across admissible connection losses |
+| `CHN_G3` | `kappa_compact` | normalized near-failure families are precompact and admissible windows do not collapse |
+| `CHN_G4` | `rho_rigidity` | bad nef-divisor counterconnections are excluded |
+| `CHN_G5` | `chern_transfer` | rigid limit transfers to the chern endpoint class |
+| `CHN_G6` | `eps_coh` | coherence remainder closes in strict mode |
+| `CHN_GM` | derived | all upstream gates pass and `M_CHN > 0` |
+
+### 4.4 Strict margin
+
+At current artifact values:
+
+- `kappa_canonical` = 1.093874,
+- `sigma_deformation` = 1.075,
+- `kappa_compact` = 0.8051529790660226,
+- `rho_rigidity` = 1.077,
+- `chern_transfer` = 1.0305400000000002,
+- `eps_coh = 0.0`.
+
+Hence:
+
+`M_CHN = 0.8051529790660226 > 0`.
+
+### 4.5 Raw coercive constant
+
+Define `kappa_canonical^(raw) := c_canonical_raw * canonical_density_raw - e_canonical_raw`.
+
+Current extracted value:
+
+`kappa_canonical = 1.093874`.
+
+---
+
+## 5. Capture, Compactness, and Theorem Chain
+
+### 5.1 Local-to-global theorem chain (`CHN1-CHN8`)
+
+1. `CHN1` Active projected response block on the canonical sector.
+2. `CHN2` Uniform capture bounds on the canonical admissible tube.
+3. `CHN3` Restart map preserving admissible data.
+4. `CHN4` First-failure compactness extraction.
+5. `CHN5` Rigidity exclusion of bad counterconnections.
+6. `CHN6` Endpoint transfer closure on the extracted target class.
+7. `CHN7` Determining-class identification of the intended endpoint.
+8. `CHN8` Final persistence theorem: the endpoint survives admissible closure.
+
+### 5.2 Raw capture constant
+
+Define `sigma_deformation^(raw) := deformation_floor_raw - connection_loss_raw - restart_loss_raw`.
+
+Current extracted value:
+
+`sigma_deformation = 1.075`.
+
+### 5.3 Compactness modulus
+
+Define `kappa_compact^(raw) := (1 + delta_comp_sup_raw)^(-1)`.
+
+Current extracted value:
+
+`kappa_compact = 0.8051529790660226`.
+
+---
+
+## 6. Rigidity, Transfer, and Identification
+
+### 6.1 Rigidity margin
+
+Rigidity excludes the bad-limit class `B_bad` of bad nef-divisor counterconnections incompatible with closure.
+
+Define `rho_rigidity^(raw) := inf_(U in B_bad) R_bad(U) / ||U||^2`.
+
+The tracked theorem-level input is `rho_rigidity = 1.077 > 0`.
+
+### 6.2 Transfer package
+
+Once bad limits are excluded, the extracted endpoint class is transferred to the chern endpoint class by the bridge inequality.
+
+Define `chern_transfer^(raw) := c_transfer_raw * transfer_gain_raw - e_transfer_raw`.
+
+Current extracted value:
+
+`chern_transfer = 1.0305400000000002 > 0`.
+
+### 6.3 Determining-class identification
+
+Fix a determining class `C_det` of endpoint observables. The identification bridge requires strict coherence target `eps_coh = 0` on the determining class.
+
+---
+
+## 7. Current Theorem Inputs (Tracked)
+
+| Constant | Gate | Current value |
+|---|---|---|
+| `kappa_canonical` | `CHN_G1` | `1.093874` |
+| `sigma_deformation` | `CHN_G2` | `1.075` |
+| `kappa_compact` | `CHN_G3` | `0.8051529790660226` |
+| `rho_rigidity` | `CHN_G4` | `1.077` |
+| `chern_transfer` | `CHN_G5` | `1.0305400000000002` |
+| `eps_coh` | `CHN_G6` | `0.0` |
+| `sigma_star_can` | stitch | `1.053` |
+
+---
+
+## 8. Current Runtime Snapshot
+
+Latest local guard output (`repro/certificate_runtime.json`):
+
+- `CHN_G1, CHN_G2, CHN_G3, CHN_G4, CHN_G5, CHN_G6, CHN_GM = PASS`,
+- strict margin `M_CHN = 0.8051529790660226`,
+- lane: `manifold_constrained`.

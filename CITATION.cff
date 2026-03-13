@@ -1,0 +1,21 @@
+title: "The Chern Conjecture via Affine-Connection Persistence"
+message: "If you use this workspace, cite the manuscript and theorem notes."
+type: software
+authors:
+  - name: "HautevilleHouse"
+date-released: 2026-03-05
+repository-code: "https://github.com/HautevilleHouse/chern-conjecture-canonical-lane"
+url: "https://github.com/HautevilleHouse/chern-conjecture-canonical-lane"
+license: None
+keywords:
+  - affine-geometry
+  - chern-conjecture
+  - differential-geometry
+  - topology
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "The Chern Conjecture via Affine-Connection Persistence"
+  authors:
+    - name: "HautevilleHouse"
+  date: 2026-03-05
