@@ -31,23 +31,23 @@
     },
     {
       "path": "notes/EG1_public.md",
-      "sha256": "adb1ab2f2ffca201ae945e3696198465da879ccb919329a33ef62fbacfddeddd"
+      "sha256": "d1514f43eaf4de9457c3a6812a5eaf433c8729b473472e40f738ece64ad30b37"
     },
     {
       "path": "notes/EG2_public.md",
-      "sha256": "b8ece437ea0d264ca0143aa9b8860938c6fa3f031a02b0a6f283b409ab0ee2a7"
+      "sha256": "8a809049e8e0fa4ad2853dd22a2a23e350935f909418e12c06df1773b001c919"
     },
     {
       "path": "notes/EG3_public.md",
-      "sha256": "0ef4114064d993ecf10a6107bbc9bd31ab412f45191c86730c03afba1b302ad9"
+      "sha256": "a250823fc68d7d9b05a04d3c21b34e89382d6257be944256623f5b72a82197ea"
     },
     {
       "path": "notes/EG4_public.md",
-      "sha256": "795673f85ff457270619adc52fc60939337990ffb62171723a29fa58e781c871"
+      "sha256": "8653d6cc9c7998b658b84e5dca55e80dde0f236d674c8028d97df628ce1fc70e"
     },
     {
       "path": "notes/IDENTIFICATION_BRIDGE.md",
-      "sha256": "9224cd7e243027cfa65706c0d936168e44b7264dcaeef3fed1db4f50c3d8562e"
+      "sha256": "d81578d794ab486618ff051ef34b0141d1b7e87bdf2e4e4821a62a8892a4150c"
     },
     {
       "path": "paper/CANONICAL_ROUTING_INDEX.md",
@@ -102,7 +102,7 @@
       "sha256": "666a798f755de105472243567d4d87999589d660308ff00713edaacdbad03744"
     }
   ],
-  "generated_utc": "2026-07-02T16:12:46Z",
+  "generated_utc": "2026-07-02T16:29:34Z",
   "lane": "manifold_constrained",
   "runtime_certificate_path": "repro/certificate_runtime.json",
   "schema_version": "2026-03-05"
